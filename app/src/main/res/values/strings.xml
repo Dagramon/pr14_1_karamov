@@ -18,4 +18,8 @@
     <string name="Register">Регистрация</string>
     <string name="Password">Пароль</string>
     <string name="Settings">Настройки</string>
+    <string name="taskname">Заголовок задачи</string>
+    <string name="username">Имя пользователя</string>
+    <string name="email">Адрес электронной почты</string>
+    <string name="password">Пароль</string>
 </resources>

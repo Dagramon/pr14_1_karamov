@@ -36,23 +36,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <EditText
-            android:background="@drawable/fieldtime"
+
+        <HorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
             android:layout_marginStart="25dp"
-            android:height="32dp"
-            android:width="148dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/fieldtime"
             />
-        <EditText
+
+        <HorizontalScrollView
             android:background="@drawable/fielddate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:layout_marginStart="65dp"
-            android:height="32dp"
-            android:width="148dp"
             />
     </LinearLayout>
     <TextView
@@ -235,7 +233,7 @@
             />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatButton
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:fontFamily="sans-serif"
         android:textColor="@color/white"
         android:background="@drawable/bigbutton"
@@ -245,5 +243,6 @@
         android:layout_marginTop="150dp"
         android:layout_marginStart="50dp"
         android:textAlignment="center"
+        android:textAllCaps="false"
         />
 </LinearLayout>

@@ -46,7 +46,9 @@
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:height="40dp"
-        android:background="@drawable/fieldentryname"
+        android:background="@drawable/textbox"
+        android:textColorHint="@color/gray"
+        android:hint="@string/username"
 
         />
 
@@ -59,7 +61,9 @@
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:height="40dp"
-        android:background="@drawable/fieldentryemail"
+        android:background="@drawable/textbox"
+        android:textColorHint="@color/gray"
+        android:hint="@string/email"
 
         />
 
@@ -73,7 +77,9 @@
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:height="40dp"
-        android:background="@drawable/fieldentrypassword"
+        android:background="@drawable/textbox"
+        android:textColorHint="@color/gray"
+        android:hint="@string/password"
 
         />
 
