@@ -46,7 +46,7 @@
 
     <TableRow>
 
-        <HorizontalScrollView
+        <ScrollView
 
             android:background="@drawable/fieldtime"
             android:layout_marginTop="16dp"
@@ -57,7 +57,7 @@
 
         />
 
-        <HorizontalScrollView
+        <ScrollView
 
             android:background="@drawable/fielddate"
 

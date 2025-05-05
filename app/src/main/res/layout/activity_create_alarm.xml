@@ -32,27 +32,34 @@
             android:src="@drawable/arrow"
             />
         </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <HorizontalScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
             android:layout_marginStart="25dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/fieldtime"
+            android:text=""
             />
 
-        <HorizontalScrollView
+        <TextView
             android:background="@drawable/fielddate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
             android:layout_marginTop="50dp"
             android:layout_marginStart="65dp"
             />
+        />
     </LinearLayout>
+    </ScrollView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
