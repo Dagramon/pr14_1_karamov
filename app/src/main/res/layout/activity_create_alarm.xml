@@ -17,7 +17,7 @@
         android:textSize="24sp"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="25dp"
         android:text="@string/addalarm"
         android:textColor="@color/white"
@@ -27,7 +27,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
             android:background="@drawable/button"
             android:src="@drawable/arrow"
             />
@@ -36,22 +36,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <ImageView
-            android:src="@drawable/fieldtime"
+        <EditText
+            android:background="@drawable/fieldtime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:height="32dp"
             android:width="148dp"
             />
-        <ImageView
-            android:src="@drawable/fielddate"
-
+        <EditText
+            android:background="@drawable/fielddate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
             android:height="32dp"
             android:width="148dp"
             />
@@ -61,7 +60,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textSize="20sp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="10dp"
         android:text="@string/repeat"
         android:textColor="@color/white"
@@ -70,10 +69,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:textOff=""
+            android:textOn=""
             android:background="@drawable/rectangle"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
             />
@@ -81,7 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
             android:textColor="@color/white"
@@ -93,10 +94,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:textOff=""
+            android:textOn=""
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/rectangle" />
 
@@ -104,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
             android:textColor="@color/white"
@@ -115,10 +118,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:textOff=""
+            android:textOn=""
             android:background="@drawable/rectangle"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
             />
@@ -126,7 +131,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
             android:textColor="@color/white"
@@ -137,10 +142,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:textOff=""
+            android:textOn=""
             android:background="@drawable/rectangle"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
             />
@@ -148,7 +155,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
             android:textColor="@color/white"
@@ -159,10 +166,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:textOff=""
+            android:textOn=""
             android:background="@drawable/rectangle"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
             />
@@ -170,7 +179,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
             android:textColor="@color/white"
@@ -181,10 +190,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:textOff=""
+            android:textOn=""
             android:background="@drawable/rectangle"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
             />
@@ -192,7 +203,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
             android:textColor="@color/white"
@@ -203,10 +214,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <androidx.appcompat.widget.AppCompatToggleButton
+            android:textOff=""
+            android:textOn=""
             android:background="@drawable/rectangle"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
             />
@@ -214,7 +227,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
             android:textColor="@color/white"
@@ -222,7 +235,7 @@
             />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatButton
-        android:textSize="15sp"
+        android:textSize="16sp"
         android:fontFamily="sans-serif"
         android:textColor="@color/white"
         android:background="@drawable/bigbutton"
@@ -230,7 +243,7 @@
         android:layout_width="312dp"
         android:layout_height="60dp"
         android:layout_marginTop="150dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
         android:textAlignment="center"
         />
 </LinearLayout>

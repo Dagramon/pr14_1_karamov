@@ -12,4 +12,10 @@
     <string name="subbota">Суббота</string>
     <string name="sunday">Воскресенье</string>
     <string name="createalarm">Создать будильник</string>
+    <string name="ChangeTask">Изменить задачу</string>
+    <string name="WriteTask">Записать задачу</string>
+    <string name="DeleteTask">Удалить задачу</string>
+    <string name="Register">Регистрация</string>
+    <string name="Password">Пароль</string>
+    <string name="Settings">Настройки</string>
 </resources>
